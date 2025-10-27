@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hartono Yaputra - Portofolio</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+    <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <nav class="navbar">
+        <div class="container">
+            <a href="#home" class="nav-logo">Hartono Yaputra</a>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About Me</a></li>
+                <li><a href="#projects" class="nav-link">Project</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Hi, i'm <span class="gold-text">Hartono Yaputra</span></h1>
+                <p>Data Science & Analyst Enthusiast.</p>
+                <a href="#projects" class="btn">My Projects</a>
+                
+                <a href="https://drive.google.com/file/d/1G7p1Q3MfySTC1t1UzXDS_rkCI0u9rXDT/view?usp=sharing" target="_blank" 
+                class="btn btn-secondary">Download CV</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="section">
+        <div class="floating-element shape-1"></div>
+        <div class="floating-element shape-2"></div>
+        <div class="container">
+            <h2 class="section-title"><span>About Me</span></h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Undergraduate Data Science student from BINUS University with a strong interest in data analytics and data science. I have hands-on experience in machine learning and data analysis. As an individual, I am equipped with leadership skills, patience, and adaptability. I am eager to contribute my skills and passion for data to a forward-thinking team.</p>
+                    
+                    <div class="skills-section animate-on-scroll">
+                        <h3 style="color: var(--gold); margin-bottom: 2rem; font-family: 'Montserrat', sans-serif;">Technical Skills</h3>
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <span>Python</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <span>Machine Learning</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <span>Data Analysis</span>
+                                <span>88%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="88%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <img src="/IMG_0332.JPG" alt="Profile Picture" class="about-image">
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section bg-light-blue">
+        <div class="floating-element shape-3"></div>
+        <div class="container">
+            <h2 class="section-title"><span>Projects</span></h2>
+
+            <div class="project-carousel-wrapper">
+
+                <button class="carousel-btn prev" id="prev-btn" aria-label="Projek sebelumnya">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+
+                <div class="project-grid" id="project-grid">
+
+                    <div class="project-card card-hover-effect animate-on-scroll">
+                        <div class="project-content">
+                            <div class="project-tech">
+                                <span class="tech-tag">AI/ML</span>
+                                <span class="tech-tag">Mobile App</span>
+                                <span class="tech-tag">Figma</span>
+                            </div>
+                            <h4>ReCloth</h4>
+                            <p>Idea about an AI-based mobile application to facilitate clothing donation and recycling in Jakarta, Feel free to view
+                                the Figma Prototype in my GitHub.</p>
+                            <div class="project-links">
+                                <a href="https://github.com/tontonns/ReCloth" target="_blank">
+                                    <i class="fab fa-github"></i> GitHub
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card card-hover-effect animate-on-scroll">
+                        <div class="project-content">
+                            <div class="project-tech">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">ML</span>
+                                <span class="tech-tag">Recommendation</span>
+                            </div>
+                            <h4>Movie Recommendation</h4>
+                            <p>Netflix content-based recommendation engine. This Model will give users the recommendation based on the user prefered Movie Title.</p>
+                            <div class="project-links">
+                                <a href="https://github.com/tontonns/Movie-Recommendation" target="_blank">
+                                    <i class="fab fa-github"></i> GitHub
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card card-hover-effect animate-on-scroll">
+                        <div class="project-content">
+                            <div class="project-tech">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">ML</span>
+                                <span class="tech-tag">Prediction</span>
+                            </div>
+                            <h4>Obesity Prediction</h4>
+                            <p>This project develops a machine learning model to predict weight categories using the "Obesity Dataset." 
+                                After data cleaning and preprocessing, the performance of Random Forest and Support Vector Classifier (SVC) models are compared, 
+                                and the best model is saved for future use.</p>
+                            <div class="project-links">
+                                <a href="https://github.com/tontonns/Obesity-Prediction" target="_blank">
+                                    <i class="fab fa-github"></i> GitHub
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card card-hover-effect animate-on-scroll">
+                        <div class="project-content">
+                            <div class="project-tech">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">DL</span>
+                                <span class="tech-tag">DCGAN</span>
+                            </div>
+                            <h4>Celebrity Image Generator</h4>
+                            <p>This project is an implementation of a Deep Convolutional Generative Adversarial Network (DCGAN) 
+                                using Keras and TensorFlow. The model is trained on the CelebA (Celebrity Faces Attributes) 
+                                dataset to generate new, realistic 128x128 images of celebrity faces.</p>
+                            <div class="project-links">
+                                <a href="https://github.com/tontonns/Celebrity-Image-Generator-with-DCGAN" target="_blank">
+                                    <i class="fab fa-github"></i> GitHub
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card card-hover-effect animate-on-scroll">
+                        <div class="project-content">
+                            <div class="project-tech">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">Analysis</span>
+                                <span class="tech-tag">Survey Sampling</span>
+                            </div>
+                            <h4>Learning Methods Impact to GPA</h4>
+                            <p>This is a Survey Sampling Method project where we worked as a group to analyze the influence of learning methods on student Grade Point Average (GPA). We hope that the code and samples we provide can offer new benefits or insights regarding our topic. This repository contains a series of data analyses from a survey aimed at understanding the influence of various learning methods on student GPA. The analysis is divided into several stages, from data cleaning to visualization.</p>
+                            <div class="project-links">
+                                <a href="https://github.com/tontonns/Analysis-of-the-Influence-of-Learning-Methods-on-Student-GPA" target="_blank">
+                                    <i class="fab fa-github"></i> GitHub
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card card-hover-effect animate-on-scroll">
+                        <div class="project-content">
+                            <div class="project-tech">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">ML</span>
+                                <span class="tech-tag">Prediction</span>
+                            </div>
+                            <h4>Loan Prediction</h4>
+                            <p>This project focuses on predicting the likelihood of a loan default (loan_status) based on a person's financial and personal information. The process includes data cleaning, feature engineering, and training two different classification models: Random Forest and XGBoost.</p>
+                            <div class="project-links">
+                                <a href="https://github.com/tontonns/Loan-Prediction" target="_blank">
+                                    <i class="fab fa-github"></i> GitHub
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div> <button class="carousel-btn next" id="next-btn" aria-label="Projek selanjutnya">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            
+        </div> </div>   </section>
+
+    <section id="contact" class="section">
+        <div class="container text-center">
+            <h2 class="section-title"><span>Contact</span></h2>
+            <p>Interested in working together? Let's get in touch!</p>
+            <a href="mailto:hartono.yaputra@gmail.com" class="btn">Send Email</a>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/hartono-yaputra/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/tontonns" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://wa.me/6281356425838" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 | Created By Hartono Yaputra</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
